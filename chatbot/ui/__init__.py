@@ -1,1 +1,1 @@
-"""UI components for the chatbot application."""
+"""UI package for the chatbot application."""

@@ -1,1 +1,1 @@
-"""Service layer for external API integrations."""
+"""Services package for the chatbot application."""
