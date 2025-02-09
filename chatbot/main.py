@@ -1,5 +1,5 @@
 """Main entry point for the chatbot application."""
-from ui.chat_window import ChatWindow
+from chatbot.ui.chat_window import ChatWindow
 
 def main():
     app = ChatWindow()

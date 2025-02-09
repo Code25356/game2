@@ -4,10 +4,20 @@ block_cipher = None
 
 a = Analysis(
     ['chatbot/main.py'],
-    pathex=[],
+    pathex=['.'],
     binaries=[],
     datas=[],
-    hiddenimports=['tkinter', 'chatbot', 'chatbot.ui', 'chatbot.services', 'chatbot.utils'],
+    hiddenimports=[
+        'tkinter',
+        'chatbot',
+        'chatbot.ui',
+        'chatbot.services',
+        'chatbot.utils',
+        'chatbot.ui.chat_window',
+        'chatbot.ui.settings',
+        'chatbot.services.openai_service',
+        'chatbot.utils.config'
+    ],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
