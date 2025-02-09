@@ -4,8 +4,8 @@ from tkinter import ttk
 from tkinter import messagebox
 import re
 
-from ..utils.config import Config
-from ..services.openai_service import OpenAIService, OpenAIServiceError
+from chatbot.utils.config import Config
+from chatbot.services.openai_service import OpenAIService, OpenAIServiceError
 
 class SettingsDialog(tk.Toplevel):
     def __init__(self, parent):

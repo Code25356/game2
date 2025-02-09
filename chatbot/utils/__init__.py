@@ -1,1 +1,1 @@
-"""Utility functions and configuration management."""
+"""Utilities package for the chatbot application."""

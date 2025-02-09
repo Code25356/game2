@@ -5,9 +5,9 @@ from tkinter import messagebox
 import tkinter.scrolledtext as scrolledtext
 import threading
 
-from .settings import SettingsDialog
-from ..utils.config import Config
-from ..services.openai_service import OpenAIService, OpenAIServiceError
+from chatbot.ui.settings import SettingsDialog
+from chatbot.utils.config import Config
+from chatbot.services.openai_service import OpenAIService, OpenAIServiceError
 
 class ChatWindow(tk.Tk):
     def __init__(self):
