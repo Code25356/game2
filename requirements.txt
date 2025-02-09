@@ -1,0 +1,4 @@
+openai>=1.0.0
+pyinstaller>=6.3.0
+setuptools>=65.5.1
+wheel>=0.38.4
